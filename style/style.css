@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&family=Rubik:ital,wght@0,700;1,400&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.burgundy-button{
+    transition: .5s;
+}
+.burgundy-button:hover{
+    background-color: #A52424;
+    color: lightgrey;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #101010;
+}
+
+.bold-text{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
+
+.burgundy-button {
+    color: #A52424;
+    border: 1px solid #A52424;
+    font-weight: 500;
+}
+
+section{
+    margin-bottom: 150px;
+}
+
+h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+    color: #232323;
+}
+/* ------ HEADER ------ */
+
+.max-width-content{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header-wr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+}
+.header-nav ul{
+    display: flex;
+}
+.header-nav .nav-item{
+    list-style-type: none;
+    padding-right: 54px;
+}
+.nav-item a{
+    color: #101010;
+}
+.header-nav li:last-child{
+    padding-right: 0;
+}
+.nav-tel{
+    color: #A52424;
+}
+
+/* ------ MAIN ------ */
+/* ------ JUKIA TULKINA ------ */
+
+.block-julia-tulkina{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name-and-work h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.1em;
+    color: #232323;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.name-and-work .bold-text {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.name-and-work .burgundy-button{
+    padding: 17px 29px;
+}
+
+/* ------ ABOUT ME ------ */
+
+.block-about-me{
+    display: flex;
+    justify-content: space-between;
+}
+.burgundy-text{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #A52424;
+}
+.left-block-about-me{
+    position: relative;
+}
+.left-block-about-me .block-box-shadow{
+    position: absolute;
+    width: 343.47px;
+    height: 560.93px;
+    top: 124px;
+    z-index: -10;
+
+    background: #FFFFFF;
+}
+.right-block-about-me{
+    width: 60%;
+    position: relative;
+}
+.right-block-about-me .burgundy-text{
+    margin-bottom: 21px;
+}
+.right-block-about-me p{
+    width: 650px;
+    margin-bottom: 30px;
+}
+.right-block-about-me .block-box-shadow{
+    position: absolute;
+    width: 567.17px;
+    height: 330.2px;
+    right: 30px;
+    top: 365px;
+    z-index: -10;
+}
+.right-block-about-me p:first-child{
+    margin-top: 78px;
+}
+.block-box-shadow{
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+}
+.left-block-about-me .photo-and-caption{
+    position: absolute;
+    left: 100px;
+    top: 173px;
+}
+.photo-and-caption img{
+    margin-bottom: 28px;
+}
+
+/* ------ PORTFOLIO ------ */
+.portfolio h2{
+    margin-bottom: 50px;
+}
+.portfolio-block{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-items{
+    width: 377px;
+}
+.portfolio-items .bold-text{
+    margin: 20px 0 10px 0;
+}
+.portfolio-items .burgundy-button {
+    padding: 17px 53px;
+}
+.portfolio-items .portfolio-description{
+    margin: 0 0 40px 0;
+}
+
+/* ------ PRICE ------ */
+.price h2{
+    margin-bottom: 50px;
+}
+.price-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-block-type{
+    width: 510px;
+    text-align: center;
+}
+.price-block-type img{
+    width: 290px;
+    height: 290px;
+}
+.price-block-type-margin {
+    margin: 20px 0;
+}
+.description-procces{
+    position: relative;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+.description-procces .block-box-shadow{
+    position: absolute;
+    width: 509px;
+    height: 467px;
+    top: -265px;
+    left: 0;
+    z-index: -10;
+}
+.description-quantity p{
+    font-weight: 600;
+}
+.description-text p,
+.description-quantity p{
+    margin: 10px 0;
+}
+.description-text{
+    text-align: start;
+}
+.description-quantity{
+    text-align: end;
+}
+
+.order-now{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+.order-now .burgundy-text{
+    font-size: 36px;
+    line-height: 44px;
+}
+.order-now .burgundy-button{
+    padding: 18px 42px;
+    font-weight: 500;
+}
+
+/* ------ SIGN UP FOR JULIA ------ */
+
+.sign-up-block{
+    display: flex;
+    justify-content: space-between;
+}
+.block-photoes{
+    position: relative;
+}
+.back-photo{
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 285px;
+    height: 492px;
+
+}
+.front-photo{
+    position: absolute;
+    left: 245px;
+    top: 45px;
+    width: 329;
+    height: 585px;
+}
+.block-form{
+    width: 476px;
+    margin-top: 53px;
+    
+}
+.block-form input::placeholder,
+.block-form textarea::placeholder{
+    color: rgba(35, 35, 35, 0.35);
+}
+.block-form input,
+.block-form textarea,
+.block-form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 17px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    background: #FFFFFF;
+    color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+    outline: 0;
+}
+textarea{
+    resize: none;
+}
+input:focus,
+textarea:focus{
+    border: 1px solid darkgrey;
+    box-shadow: 0 2px 1px #A52424;
+}
+.block-form .burgundy-button-form{
+    cursor: pointer;
+    color: #A52424;
+    border: 1px solid #A52424;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    transition: .5s;
+}
+.block-form .burgundy-button-form:hover{
+    background-color: #A52424;
+    color: lightgrey;
+}
+
+/* ------ FOOTER ------ */
+
+footer{
+    border: 0.3px solid lightgrey;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.footer-social-networks ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    padding-left: 0;
+    margin: 0;
+}
+.footer-tel .nav-tel{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
